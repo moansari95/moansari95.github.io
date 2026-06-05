@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammad Ansari</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #222;
+    }
+    .container {
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    .header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    img {
+      width: 140px;
+      height: 140px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .subtitle {
+      color: #555;
+      margin-top: 5px;
+    }
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .section h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .links a {
+      margin-right: 15px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Your Name</h1>
-  <p>PhD Student</p>
-  <p>Paper accepted at SPAA 2026.</p>
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+     <img src="profile.jpg" alt="Profile Photo">
+      <div>
+        <h1>Mohammad Ansari</h1>
+        <div class="subtitle">
+          PhD Student in Computer Science<br>
+          Sharif University of Technology
+        </div>
+        <div class="links" style="margin-top:10px;">
+          <a href="mailto:moh.ansari@sharif.edu">Email</a>
+          <a href="#">Google Scholar</a>
+          <a href="#">DBLP</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="section">
+      <h2>About</h2>
+      <p>
+        I am a PhD student in Computer Science at Sharif University of Technology.
+        My research focuses on theoretical and algorithmic aspects of large-scale optimization problems.
+      </p>
+    </div>
+
+    <!-- RESEARCH -->
+    <div class="section">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Approximation Algorithms</li>
+        <li>Randomized Algorithms</li>
+        <li>Computational Geometry</li>
+        <li>Graph Theory</li>
+      </ul>
+    </div>
+
+    <!-- PUBLICATIONS -->
+    <div class="section">
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <b>Composable Coresets for Fair Diversity Maximization</b> (SPAA 2026)
+        </li>
+        <li>
+          <b>Simple Streaming Algorithms for Edge Coloring</b> (ESA 2022)
+        </li>
+      </ul>
+    </div>
+
+    <!-- NEWS -->
+    <div class="section">
+      <h2>News</h2>
+      <ul>
+        <li>Paper accepted at SPAA 2026 🎉</li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: moh.ansari@sharif.edu</p>
+    </div>
+
+  </div>
 </body>
 </html>
